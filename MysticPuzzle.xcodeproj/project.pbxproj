@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		7A96DE9B2C64AB3A002ED564 /* MysticPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DE9A2C64AB3A002ED564 /* MysticPuzzleApp.swift */; };
-		7A96DE9D2C64AB3A002ED564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DE9C2C64AB3A002ED564 /* ContentView.swift */; };
+		7A96DE9D2C64AB3A002ED564 /* MysticPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DE9C2C64AB3A002ED564 /* MysticPuzzleView.swift */; };
 		7A96DE9F2C64AB3B002ED564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A96DE9E2C64AB3B002ED564 /* Assets.xcassets */; };
 		7A96DEA22C64AB3B002ED564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A96DEA12C64AB3B002ED564 /* Preview Assets.xcassets */; };
+		7A96DEA92C64ADDD002ED564 /* MysticPuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DEA82C64ADDD002ED564 /* MysticPuzzleModel.swift */; };
+		7A96DEAB2C64C016002ED564 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DEAA2C64C016002ED564 /* Extensions.swift */; };
+		7A96DEAD2C64C4A6002ED564 /* MysticPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A96DEAC2C64C4A6002ED564 /* MysticPuzzleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A96DE972C64AB3A002ED564 /* MysticPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A96DE9A2C64AB3A002ED564 /* MysticPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleApp.swift; sourceTree = "<group>"; };
-		7A96DE9C2C64AB3A002ED564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A96DE9C2C64AB3A002ED564 /* MysticPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleView.swift; sourceTree = "<group>"; };
 		7A96DE9E2C64AB3B002ED564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A96DEA12C64AB3B002ED564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A96DEA82C64ADDD002ED564 /* MysticPuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleModel.swift; sourceTree = "<group>"; };
+		7A96DEAA2C64C016002ED564 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7A96DEAC2C64C4A6002ED564 /* MysticPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticPuzzleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				7A96DE9A2C64AB3A002ED564 /* MysticPuzzleApp.swift */,
-				7A96DE9C2C64AB3A002ED564 /* ContentView.swift */,
+				7A96DE9C2C64AB3A002ED564 /* MysticPuzzleView.swift */,
+				7A96DEAA2C64C016002ED564 /* Extensions.swift */,
 				7A96DE9E2C64AB3B002ED564 /* Assets.xcassets */,
 				7A96DEA02C64AB3B002ED564 /* Preview Content */,
+				7A96DEA82C64ADDD002ED564 /* MysticPuzzleModel.swift */,
+				7A96DEAC2C64C4A6002ED564 /* MysticPuzzleViewModel.swift */,
 			);
 			path = MysticPuzzle;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A96DE9D2C64AB3A002ED564 /* ContentView.swift in Sources */,
+				7A96DE9D2C64AB3A002ED564 /* MysticPuzzleView.swift in Sources */,
+				7A96DEAD2C64C4A6002ED564 /* MysticPuzzleViewModel.swift in Sources */,
 				7A96DE9B2C64AB3A002ED564 /* MysticPuzzleApp.swift in Sources */,
+				7A96DEA92C64ADDD002ED564 /* MysticPuzzleModel.swift in Sources */,
+				7A96DEAB2C64C016002ED564 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
